@@ -5,7 +5,7 @@
 ---
 <menubar breakpoint="md" position="top">
     <brand boldness="bold" width="30">
-       ComboStrap
+       ComboWiki
     </brand>
     <collapse>
         <group expand="true">
@@ -19,5 +19,3 @@
         <search/>
     </collapse>
 </menubar>
-
-

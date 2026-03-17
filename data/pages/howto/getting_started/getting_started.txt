@@ -6,8 +6,9 @@
     ],
     "canonical": ":getting_started",
     "description": "This page helps you to get started with ComboStrap",
-    "name": "Get Started",
+    "name": "Getting Started",
     "page_id": "3i8vga8fcduorja8f1sn4",
+    "template": "holy",
     "title": "How to get started with ComboStrap ?"
 }
 ---
@@ -25,10 +26,16 @@ How to have a professional website up and running with [[:start|combostrap]].
 
 This ''how-to'' guide regroups a series of article to get you started.
 
+This guide follows these steps:
+
   - [[1_dokuwiki]]
+    - [[2_docker|Docker Installation]]
+    - [[3_server|Server Installation]]
+    - [[4_combo|Plugin Installation]]
+  - [[5_plugin]]
   - [[6_favicon]]
   - [[7_menu]]
-  - [[8_git]]
+  - Bonus: [[8_git]]
 
 ===== Start =====
 <btn>

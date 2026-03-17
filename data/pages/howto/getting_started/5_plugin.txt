@@ -6,7 +6,8 @@
     "canonical": ":installation:plugins",
     "description": "This page is an optional and informative step that highlights important information that you should now about third party plugins.",
     "name": "Third Party Plugins",
-    "page_id": "uf5ymxql03zbox8jzrizu"
+    "page_id": "uf5ymxql03zbox8jzrizu",
+    "layout": "holy"
 }
 ---
 
@@ -19,7 +20,7 @@ This page is an optional and informative step that highlights important informat
 [[:combostrap|ComboStrap]] supports [[:support:plugin|third party plugins]] and you can see them all on their  [[:support:plugin|dedicated page]].
 
 
-You can install any plugin the same way as [[howto:server_installation:2_combo|Combo]] with the [[doku>plugin:extension|extension manager]].
+You can install any plugin the same way as [[4_combo|Combo]] with the [[doku>plugin:extension|extension manager]].
 
 
 
@@ -51,7 +52,7 @@ You should use it:
 ===== Support =====
 ==== Plugin and Combostrap update ====
 
-After an installation, if you want to update a plugin or Combostrap and if you have a memory error, 
+After an installation, if you want to update a plugin or Combostrap and if you have a memory error,
 you need to [[:release:update|update them via the manual install procedure]].
 
 

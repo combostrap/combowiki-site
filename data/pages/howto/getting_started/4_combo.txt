@@ -6,16 +6,15 @@
     ],
     "canonical": ":combo",
     "description": "Combo is the bundle of components that complements the strap template.\nThis step shows you how to install it.",
-    "name": "Combo Installation",
+    "name": "Combo Plugin",
     "page_id": "zjmtimy9bvfdsnptsvvy7",
     "template": "holy"
 }
 ---
 
-====== ComboStrap Getting Started - Combo Installation ======
-
 ===== About =====
-''combo'' contains all components:
+The ''combo'' plugin contains all components:
+
   * The [[docs:theme:theme|theme]]
   * The [[docs:component|collection of UI component]]
   * The [[docs:router:router|router]]
@@ -35,7 +34,7 @@ If you don't know the version of your installation, the [[..:getting_started:1_d
 
 **DokuWiki Internal rewriting**: \\
 Because of the [[:docs:page:url|permanent url functionality]], Combostrap:
-      * does not support the [[doku>rewrite#option_1web_server|URL DokuWiki Internal rewriting (option 2)]] 
+      * does not support the [[doku>rewrite#option_1web_server|URL DokuWiki Internal rewriting (option 2)]]
       * but supports [[https://combostrap.com/admin/nice-url-noln5keo|nice url via the web server]]
 
 ==== Go to the Extension Manager ====
@@ -60,7 +59,7 @@ To install the ''Combo'' plugin:
 
 ==== Do you have any other plugins ? ====
 
-''ComboStrap'' is tested against [[howto:server_installation:4_plugin|third party plugins]] but we can't test them all.
+''ComboStrap'' is tested against [[5_plugin|third party plugins]] but we can't test them all.
 
 This application has a large code base going from [[:docs:cache:cache|cache]] to [[docs:router:router|routing]] and [[docs:component|user interface]] management.
 
@@ -84,10 +83,14 @@ If this is the case and that you got your installation not working anymore, the 
   * or to delete it
 
 And to [[:support|send us the log of your webserver]] if you want us to take a look.
+
 ===== Next Step =====
 
 All good? Well done, otherwise check the [[#do_you_have_a_broken_installation|broken installation section]] if you need to recover your installation.
 
-<btn>
-[[4_plugin]]
-</btn>
+
+In the next step, you will learn to install a ''favicon''
+
+<button color='white'>
+[[:howto:getting_started:6_favicon|Configure a Favicon]]
+</button>

@@ -19,10 +19,13 @@
     <grid>
             <box spacing="ps-lg-5" width=60%>
                <box>
-<heading d4 spacing="mb-3">Hackers, Don't stay **Behind**, \\ Gain **Visibility** and **Opportunities** from your knowledge</heading>
-<text h3 boldness="light">The next generation writing platform </text>
+<heading d4 spacing="mb-3">The ultimate DokuWiki \\ **Publication** Plugin</heading>
+<text h1 boldness="light">No Visibility, Bad SEO, Old Design ?</text>
 <text lead width="500">
-ComboStrap supports you along the way, from information gathering to proper publication.
+A Standard DokuWiki installation has limited features in SEO and design.
+Once installed, `ComboWiki` increases automatically and drastically **Visibility** and **Opportunities** from your wiki content.
+
+<btn>[[:|Go to ComboStrap]]</btn>
 </text>
                </box>
             </box>
@@ -41,52 +44,53 @@ ComboStrap supports you along the way, from information gathering to proper publ
 </box>
 
 <grid max-line="4-lg">
-<box>
+<box clickable>
     <icon name="bs:markdown-fill" spacing="my-3" width="2.75rem"/>
     <text h5>Extended Markdown</text>
-    No Code. Just declare what you want in markdown or wiki format and watch the magic happen.
+    No Code. Just declare what you want in Markdown or wiki format and watch the magic happen.\\
+    [[docs:utility:markdown|{{:combostrap:icons:bootstrap:arrow-right.svg?16&type=icon&color=primary|}}]]
 </box>
 
-<box>
+<box clickable>
     <icon name="palette" spacing="my-3" width="2.75rem"/>
     <text h5>Themes loaded</text>
-    Choose any theme you want. You got a new design in second, not month.
+    Choose any theme you want. You got a new design in second, not month. \\
+    [[themes|{{:combostrap:icons:bootstrap:arrow-right.svg?16&type=icon&color=primary|}}]]
 </box>
 
-<box>
+<box clickable>
     <icon name="bs:inboxes-fill" spacing="my-3" width="2.75rem"/>
     <text h5>100+ Components</text>
-    Nicely customized components that can be reused anytime and anywhere in your project.
+    Nicely customized components that can be reused anytime and anywhere in your project.\\
+    [[docs:component|{{:combostrap:icons:bootstrap:arrow-right.svg?16&type=icon&color=primary|}}]]
 </box>
 
-<box>
+<box clickable>
     <icon name="puzzle" spacing="my-3" width="2.75rem"/>
     <text h5>Everything is modular</text>
-    All components can be reused and composed to create the design of your dream
+    All components can be reused and composed to create the design of your dream.\\
+    [[docs:theme:template:template|{{:combostrap:icons:bootstrap:arrow-right.svg?16&type=icon&color=primary|}}]]
 </box>
 
-<box>
-    <icon name="bs:arrows-collapse" spacing="my-3" width="2.75rem"/>
-    <text h5>Team ready</text>
-    Collaborate on your pages, apply your changes immediately, see the history and even come back to a revision
-</box>
-
-<box>
+<box clickable>
 <icon name="twitter" spacing="my-3" width="2.75rem"/>
 <text h5>Social from the start</text>
-Advertise automatically with a a professional look your pages to social network such as  Twitter,  Facebook,  Google.
+Advertise automatically with a professional look your pages to social network such as Twitter, Facebook, Google.\\
+[[docs:social:social|{{:combostrap:icons:bootstrap:arrow-right.svg?16&type=icon&color=primary|}}]]
 </box>
 
-<box>
+<box clickable>
 <icon name="bs:card-image" spacing="my-3" width="2.75rem"/>
 <text h5>Illustrations</text>
-Incorporate vivid illustrations to emphase and make your message stronger
+Incorporate vivid illustrations to emphasize and make your message stronger.\\
+[[docs:page:image||{{:combostrap:icons:bootstrap:arrow-right.svg?16&type=icon&color=primary|}}]]
 </box>
 
-<box>
+<box clickable>
 <icon name="asterisk" spacing="my-3" width="2.75rem"/>
 <text h5>Icons included</text>
 More than 1500 icons to your fingertip to add more intuitive and playful touch to your website.
+[[docs:content:icon||{{:combostrap:icons:bootstrap:arrow-right.svg?16&type=icon&color=primary|}}]]
 </box>
 
 <box>
@@ -232,7 +236,3 @@ The platform is open source, guarantee of sustainability and
 \\
 \\
 </bar>
-
-
-
-

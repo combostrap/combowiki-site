@@ -1,10 +1,13 @@
 ---json
 {
+    "aliases": [
+        { "path": ":howto:server_installation:start" }
+    ],
+    "name": "Server",
     "page_id": "i0l9m75b1t1ivqz9frgbe",
     "template": "holy"
 }
 ---
-====== How to install DokuWiki and Combostrap on a Server? ======
 
 
 ===== About =====
@@ -14,12 +17,12 @@ server with a Linux/Windows operating system.
 
 ===== Support =====
 
-This part is crucial for performance reason. 
+This part is crucial for performance reason.
 
 It's not 1, 2, 3 as you need to have a broad knowledge of:
   * Linux/Windows
-  * ssh, 
-  * php, 
+  * ssh,
+  * php,
   * php extension, opcache
   * and many components
 
@@ -59,6 +62,10 @@ You can access the [[doku>installer|installer page]] at ''https://yourdomain.com
 
 
 ===== Next Step =====
+
+In the next step, we will install the ''combo'' plugin
+
+
 <btn color="white">
-[[howto:server_installation:2_combo|Combo Installation]]
+[[4_combo|Combo Plugin Installation]]
 </btn>
