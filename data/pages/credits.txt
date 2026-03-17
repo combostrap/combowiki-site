@@ -1,7 +1,8 @@
 ---json
 {
     "description": "Credits to all library and framework that makes ComboStrap a reality",
-    "page_id": "mytry5lj0yohabkj63k55"
+    "page_id": "mytry5lj0yohabkj63k55",
+    "title": "ComboStrap Library Credits"
 }
 ---
 ====== ComboStrap - Credits ======

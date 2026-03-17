@@ -118,112 +118,127 @@ Advertise automatically with a professional look your pages to social network su
 <icon name="bs:card-image" spacing="my-3" width="2.75rem"/>
 <text h5>Illustrations</text>
 Incorporate vivid illustrations to emphasize and make your message stronger.\\
-[[docs:page:image||{{:combostrap:icons:bootstrap:arrow-right.svg?16&type=icon&color=primary|}}]]
+[[docs:page:image|{{:combostrap:icons:bootstrap:arrow-right.svg?16&type=icon&color=primary|}}]]
 </box>
 
 <box clickable align="text-center>
 <icon name="asterisk" spacing="my-3" width="2.75rem"/>
 <text h5>Icons included</text>
-More than 1500 icons to your fingertip to add more intuitive and playful touch to your website.
+More than 1500 icons to your fingertip to add more intuitive and playful touch to your website. \\
 [[docs:content:icon|{{:combostrap:icons:bootstrap:arrow-right.svg?16&type=icon&color=primary|}}]]
 </box>
 
-<box>
+<box clickable>
 <icon name="rocket-launch" spacing="my-3" width="2.75rem"/>
 <text h5>Fast as hell</text>
 Fast pages means a better user experience, a better place in Google Search
 and more visitors.
-Your pages will reach the top score of the Google Lighthouse Performance Index.
+Your pages will reach the top score of the Google Lighthouse Performance Index. \\
+[[:docs:performance:performance|{{:combostrap:icons:bootstrap:arrow-right.svg?16&type=icon&color=primary|}}]]
 </box>
 
-<box>
+<box clickable>
 <icon name="bs:geo-alt-fill" spacing="my-3" width="2.75rem"/>
-<text h5>SEO ready</text>
+<text h5>SEO Metadata ready</text>
 Be visible from the start. \\ Increase your Domain Authority (DA)
-with the SEO module.
+with the SEO module. \\
+[[:docs:seo:seo|{{:combostrap:icons:bootstrap:arrow-right.svg?16&type=icon&color=primary|}}]]
 </box>
 
-<box>
+<box clickable>
 <icon name="coffee" spacing="my-3" width="2.75rem"/>
 <text h5>Own your work</text>
 Based on text files and an open syntax, your pages are not ours but yours.
-Copy them on your computer, render them with any third open engine.
+Copy them on your computer, render them with any third open engine. \\
+[[:docs:marki|{{:combostrap:icons:bootstrap:arrow-right.svg?16&type=icon&color=primary|}}]]
 </box>
 
-<box>
+<box clickable>
 <icon name="seal" spacing="my-3" width="2.75rem"/>
 <text h5>Page Quality</text>
 Get a feedback on the quality of your pages and
-even block them from publishing if they don't reach your standard
+even block them from publishing if they don't reach your standard \\
+[[:docs:quality:quality|{{:combostrap:icons:bootstrap:arrow-right.svg?16&type=icon&color=primary|}}]]
 </box>
 
-<box>
+<box clickable>
 <icon name="bs:bar-chart-fill" spacing="my-3" width="2.75rem"/>
 <text h5>Page Analytics Powered</text>
 Answer all your questions and get great insight on your pages.
-(Words count, intra-links, broken links, ...)
+(Words count, intra-links, broken links, ...) \\
+[[:docs:analytics:analytics|{{:combostrap:icons:bootstrap:arrow-right.svg?16&type=icon&color=primary|}}]]
 </box>
 
-<box>
+<box clickable>
 <icon name="bs:card-heading" spacing="my-3" width="2.75rem"/>
 <text h5>Ad System Ready</text>
 Monetize your content and place ads
 between reading section to balance between user experience
-and increase traffic.
+and increase traffic. \\
+[[:docs:ads:ads|{{:combostrap:icons:bootstrap:arrow-right.svg?16&type=icon&color=primary|}}]]
 </box>
 
-<box>
+<box clickable>
 <icon name="semantic-web" spacing="my-3" width="2.75rem"/>
 <text h5>Semantic Web</text>
 Control the rendering of your pages on external website. \\
-Create permalink and even publish your company location.
+Create permalink and even publish your company location. \\
+[[:docs:router:permalink|{{:combostrap:icons:bootstrap:arrow-right.svg?16&type=icon&color=primary|}}]]
 </box>
 
-<box>
+<box clickable>
 <icon name="translate" spacing="my-3" width="2.75rem"/>
 <text h5>International</text>
-The pages support natively language and templating localization. You are Right-To-Left language ready from the start.
+The pages support natively language and templating localization. \\
+You are Right-To-Left language ready from the start. \\
+[[docs:locale:lang|{{:combostrap:icons:bootstrap:arrow-right.svg?16&type=icon&color=primary|}}]]
 </box>
 
-<box>
+<box clickable>
 <icon name="bs:shield-shaded" spacing="my-3" width="2.75rem"/>
 <text h5>Security by design</text>
 No database, no Sql injection. \\
 Easy backup with plaintext files and
-file history.
+file history. \\
+[[:security|{{:combostrap:icons:bootstrap:arrow-right.svg?16&type=icon&color=primary|}}]]
 </box>
 
-<box>
+<box clickable>
 <icon name="bs:phone-fill" spacing="my-3" width="2.75rem"/>
 <text h5>Mobile-first</text>
 Beautiful on all screens from the start.
-All components have been build responsive and mobile-first.
+All components have been build responsive and mobile-first. \\
+[[howto:install_app|{{:combostrap:icons:bootstrap:arrow-right.svg?16&type=icon&color=primary|}}]]
 </box>
 
-<box>
+<box clickable>
 <icon name="bootstrap5" spacing="my-3" width="2.75rem"/>
 <text h5>Latest Bootstrap 5</text>
-Built with and extends the world's most popular styling library.
+Built with and extends the world's most popular styling library.\\
+[[:docs:theme:bootstrap|{{:combostrap:icons:bootstrap:arrow-right.svg?16&type=icon&color=primary|}}]]
 </box>
 
-<box>
+<box clickable>
 <icon name="material-design" spacing="my-3" width="2.75rem"/>
 <text h5>Material Design</text>
-All components follows the Material Design guidelines to bring more clarity.
+All components follows the Material Design guidelines to bring more clarity. \\
+[[:docs:styling:design|{{:combostrap:icons:bootstrap:arrow-right.svg?16&type=icon&color=primary|}}]]
 </box>
 
-<box>
+<box clickable>
 <icon name="git" spacing="my-3" width="2.75rem"/>
 <text h5>Publish when ready</text>
 Based on simple text files, you can develop on Git, create revision
-and publish your web publication when ready.
+and publish your web publication when ready. \\
+[[:howto:getting_started:8_git|{{:combostrap:icons:bootstrap:arrow-right.svg?16&type=icon&color=primary|}}]]
 </box>
 
-<box>
+<box clickable>
 <icon name="github" spacing="my-3" width="2.75rem"/>
 <text h5>Open Source Philosophy</text>
 The platform is open source, guarantee of sustainability and
- supporting your investment. You can even fork it and makes it your own.
+ supporting your investment. You can even fork it and makes it your own. \\
+[[https://github.com/combostrap/combo|{{:combostrap:icons:bootstrap:arrow-right.svg?16&type=icon&color=primary|}}]]
 </box>
 
 </grid>
@@ -288,7 +303,7 @@ And ''comboWiki'' was born.
 <bar hero="lg" height="60vh">
    <background opacity="0.7">{{:woman-yoga-sunset.jpg|}}</background>
    <box width="350px" align="text-center" color="secondary">
-       <heading h1>Ready for a Journey :)</heading>
+       <heading h1>And a Yoga stretch, for the Journey</heading>
        <text lead>The last action call, good luck</text>
        [[howto:getting_started:getting_started?preview=false|<icon name="bs:play-circle-fill" width="3.75rem" color="secondary"/>]]
    </box>

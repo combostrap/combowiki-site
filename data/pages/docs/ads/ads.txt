@@ -3,7 +3,8 @@
     "canonical": ":ads",
     "featured-raster-image": ":docs:ads:undraw_design_objectives_re_94pd.png",
     "featured-svg-image": ":docs:ads:undraw_design_objectives_re_94pd.svg",
-    "page_id": "09z3bzwhz2ptf26pom4s8"
+    "page_id": "09z3bzwhz2ptf26pom4s8",
+    "template": "holy"
 }
 ---
 ====== ComboStrap - Ads ======
@@ -15,7 +16,7 @@
 
 <note >
 In Advertising, ''Ad Unit'' defines:
-  * the location of your ad on the web page 
+  * the location of your ad on the web page
   * and its styling (most importantly the dimensions)
 </note>
 
@@ -32,7 +33,3 @@ Because the ''ads'' are stored as page, they are by default added to the index.
 
 You need to set a configuration to prevent it. See [[conf]]
 </note>
-
-
-
-

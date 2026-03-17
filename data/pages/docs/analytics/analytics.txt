@@ -1,6 +1,7 @@
 ---json
 {
-    "page_id": "3xy2kmv98zj5toudvkily"
+    "page_id": "3xy2kmv98zj5toudvkily",
+    "template": "holy"
 }
 ---
 ====== ComboStrap - Analytics ======
@@ -23,4 +24,3 @@ To learn more about this module, you should:
   * first discover the [[database|database schema]]
   * then discover the format of the [[data|analytical data]]
   * and finally, learn how to [[query|query]].
-

@@ -5,20 +5,16 @@
         { "path": ":wiki:markup_docs:getting_started:getting_started" }
     ],
     "canonical": ":getting_started",
-    "description": "This page helps you to get started with ComboStrap",
-    "name": "Getting Started",
+    "description": "This page helps you to get started with ComboWiki",
+    "featured-svg-image": ":howto:getting_started:undraw_stepping_up.svg",
     "page_id": "3i8vga8fcduorja8f1sn4",
     "template": "holy",
-    "title": "How to get started with ComboStrap ?"
+    "title": "How to get started with ComboWiki ?"
 }
 ---
 
-====== ComboStrap UI - Getting Started ======
 
-\\
-\\
 
-{{ howto:getting_started:undraw_stepping_up.svg?0x300 }}
 
 
 ===== About =====
