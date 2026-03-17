@@ -10,7 +10,9 @@
 ====== ComboStrap - Latest release ======
 
 ===== About =====
-The latest release is the release [[1.25.4|1.25.4]]
+
+  * The next release is the release [[1.25.5|1.25.5]]
+  * The current release is the release [[1.25.4|1.25.4]]
 
 
 

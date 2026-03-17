@@ -1,0 +1,22 @@
+---json
+{
+    "name": "Release 1.25.5",
+    "page_id": "yivtjdma5euc1p3n0hcy6"
+}
+---
+====== Release 1.25.5 ======
+
+
+This is the next version not yet released of ComboWiki.
+
+===== List =====
+==== New ====
+
+  * Added [[:docs:theme:bootstrap|bootstrap]] version ''5.3.8'' [[https://github.com/combostrap/combo/commit/79b240eb60b7d14065fccdbd404df02fb6a80167|Commit]]
+
+
+==== Fix ====
+
+  * With bootstrap version ''5.3.8'' ([[https://github.com/combostrap/combo/commit/79b240eb60b7d14065fccdbd404df02fb6a80167|Commit]]),
+     * rgb channels colors are used. We have added the `--bs-link-color-rgb` custom variable so that the links takes the primary color.
+     * ''popper.js'' is no more and we have made it optional for version `5`

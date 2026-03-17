@@ -22,15 +22,15 @@
 <heading d4 spacing="mb-3">The ultimate DokuWiki \\ **Publication** Plugin</heading>
 <text h1 boldness="light">No Visibility, Bad SEO, Old Design ?</text>
 <text lead width="500">
-A Standard DokuWiki installation has limited features in SEO and design.
+Do you experience in your standard DokuWiki installation limited features in SEO and design.
 Once installed, `ComboWiki` increases automatically and drastically **Visibility** and **Opportunities** from your wiki content.
 
-<btn>[[:|Go to ComboStrap]]</btn>
+<btn>[[:howto:getting_started:getting_started|Get Started]]</btn>
 </text>
                </box>
             </box>
             <box align="x-center y-center">
-{{ ::undraw_icon_design_re_9web.svg?300&nolink |}}
+{{ :undraw_icon_design_re_9web.svg?300&nolink |}}
             </box>
 </grid>
 </bar>
@@ -38,10 +38,45 @@ Once installed, `ComboWiki` increases automatically and drastically **Visibility
 
 
 <bar hero="lg"  background-color="light">
+
+<grid>
+           <box align="y-center">
+           <box width="400" align="center">
+{{:docs:seo:undraw_growth_chart_r99m.svg?nolink|}}
+</box>
+<box>
+
+</box>
+
+           </box>
+           <box spacing="ps-lg-5" align="y-center">
+
+<box align="center" width="600">
+<heading d5 spacing="mb-3">What can ComboWiki do for you?</heading>
+
+''ComboWiki'' is focused on bringing more visitors with a first class [[:docs:seo:seo|SEO optimization]] experience to DokuWiki.
+
+It will help you:
+  * If you have a [[:docs:performance:performance|performance problem]],
+  * If you want a [[:docs:seo:seo|optimized page metadata]],
+  * If you want a [[:docs:theme:template:template|different design by page]],
+  * If you want to [[:docs:templating:iterator|generate a list of pages]] in your pages
+
+</box>
+           </box>
+
+</grid>
+
+</bar>
+
+<bar hero="lg">
 <box align="text-center">
    <heading h2>Really useful features</heading>
    <text lead width="400px" align="center">You get all components fully customized out of the box and ready to use.</text>
 </box>
+
+\\
+\\
 
 <grid max-line="4-lg">
 <box clickable>
@@ -86,11 +121,11 @@ Incorporate vivid illustrations to emphasize and make your message stronger.\\
 [[docs:page:image||{{:combostrap:icons:bootstrap:arrow-right.svg?16&type=icon&color=primary|}}]]
 </box>
 
-<box clickable>
+<box clickable align="text-center>
 <icon name="asterisk" spacing="my-3" width="2.75rem"/>
 <text h5>Icons included</text>
 More than 1500 icons to your fingertip to add more intuitive and playful touch to your website.
-[[docs:content:icon||{{:combostrap:icons:bootstrap:arrow-right.svg?16&type=icon&color=primary|}}]]
+[[docs:content:icon|{{:combostrap:icons:bootstrap:arrow-right.svg?16&type=icon&color=primary|}}]]
 </box>
 
 <box>
@@ -195,16 +230,18 @@ The platform is open source, guarantee of sustainability and
 
 </bar>
 
-<bar hero="lg" height="60vh">
-   <background opacity="0.7">{{:woman-yoga-sunset.jpg|}}</background>
-   <box width="300px" align="text-center" color="secondary">
-       <heading h1>Ready for the journey?</heading>
-       <text lead>Become a publisher today</text>
-       [[howto:getting_started:getting_started?preview=false|<icon name="bs:play-circle-fill" width="3.75rem" color="secondary"/>]]
-   </box>
-</bar>
 
-<bar hero="lg" >
+<bar hero="lg" background-color="light">
+
+
+<box width="600" align="text-center center" >
+<heading d5 spacing="mb-3">We know, it's not perfect, but We put all our love into it.</heading>
+
+''Combo'' is the result of many years of DokuWiki usage \\
+to make it design and SEO-friendly.
+</box>
+
+
 \\
 \\
 \\
@@ -212,27 +249,47 @@ The platform is open source, guarantee of sustainability and
 <grid align="text-center y-center">
        <box>
            <icon name="heart" color="danger" width="3rem"/>
-           <text h3 color="danger">97%</text>
-           <text color="secondary">Happy clients</text>
+           <text h3 color="danger">67</text>
+           <text color="secondary">Lovely features</text>
        </box>
        <box>
-           <icon name="bs:clock-fill" color="primary" width="3rem"/>
-           <text h3 color="primary">365x7</text>
-           <text color="secondary">Customer support</text>
-        </box>
+          <icon name="bs:clock-fill" color="primary" width="3rem"/>
+          <text h3 color="primary">365x7</text>
+          <text color="secondary">Support \\ With good coffee</text>
+       </box>
        <box>
            <icon name="bs:stack" color="warning" width="3rem"/>
            <text h3 color="warning">100+</text>
            <text color="secondary">Fresh components</text>
         </box>
        <box>
-           <icon name="bs:file-richtext-fill" color="info" width="3rem"/>
-           <text h3 color="info">300+</text>
+           <icon name="bs:file-richtext-fill" color="primary" width="3rem"/>
+           <text h3 color="primary">300+</text>
            <text color="secondary">Documentation pages</text>
         </box>
 </grid>
 \\
 \\
+<box width="600" align="center text-center" >
+We started with a couple of plugins:\\
+[[doku>plugin:webcode|WebCode]],\\
+[[doku>plugin:404manager|404Manager]],\\
+[[doku>plugin:minimap|MiniMap]]
+
+\\
+Because ''DokuWiki'' has no manager, \\
+Managing the dependencies became a nightmare \\
+And ''comboWiki'' was born.
+</box>
+
 \\
 \\
+</bar>
+<bar hero="lg" height="60vh">
+   <background opacity="0.7">{{:woman-yoga-sunset.jpg|}}</background>
+   <box width="350px" align="text-center" color="secondary">
+       <heading h1>Ready for a Journey :)</heading>
+       <text lead>The last action call, good luck</text>
+       [[howto:getting_started:getting_started?preview=false|<icon name="bs:play-circle-fill" width="3.75rem" color="secondary"/>]]
+   </box>
 </bar>
