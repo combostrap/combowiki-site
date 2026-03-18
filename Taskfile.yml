@@ -21,7 +21,7 @@ tasks:
           -e DOKU_DOCKER_ADMIN_NAME='admin' \
           -e DOKU_DOCKER_ADMIN_PASSWORD='welcome' \
           -v $PWD:/var/www/html \
-          ghcr.io/combostrap/dokuwiki:php8.3-latest
+          ghcr.io/combostrap/dokuwiki:php8.3-2025-05-14b
   # Stop the container
   stop:
     cmds:
@@ -37,10 +37,17 @@ tasks:
     cmds:
       - |
         docker start combowiki-site
+  # Indexer
+  index:
+    cmds:
+      - |
+        docker exec -it combowiki-site php ./bin/indexer.php --clear
   # Broken links
   broken:
     cmds:
       - |
+        # indexer is needed otherwise the sync will delete frontmatter meta that are not in the database
+        docker exec -it combowiki-site php ./bin/indexer.php
         # Delete non-existing pages in the database
         docker exec -it combowiki-site php ./bin/plugin.php combo sync /
         docker exec -it combowiki-site php ./bin/plugin.php combo broken-links
