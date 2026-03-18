@@ -71,11 +71,9 @@ If you have any problems with a third party plugin:
 
 ===== Next Step =====
 
-That's it, you should have no a full functional server installed with DokuWiki.
 
-
-If you are getting started with Combo, you can follow or go back to the [[:howto:getting_started:1_dokuwiki|getting started guide]].
+Learn how to create and install your favicons.
 
 <btn color="white">
-[[:howto:getting_started:1_dokuwiki|Getting started guide]]
+[[6_favicon|Favicon Installation]]
 </btn>

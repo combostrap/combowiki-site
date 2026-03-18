@@ -29,7 +29,7 @@ The ''combo'' plugin contains all components:
 
 
 **Last Dokuwiki Version**: \\
-In case, you have not followed the [[howto:getting_started:1_dokuwiki|dokuwiki step]], you should install ''ComboStrap'' on the last DokuWiki version. \\
+In case, you have not followed the [[3_server|server step]], you should install ''ComboStrap'' on the last DokuWiki version. \\
 If you don't know the version of your installation, the [[..:getting_started:1_dokuwiki#dokuwiki_version_check|dokuwiki version check]] will help you.
 
 **DokuWiki Internal rewriting**: \\
@@ -73,6 +73,7 @@ Because of the [[support:oom|memory error of the update plugin]], Combo needs to
   * Enter the Github Url: ''https://github.com/ComboStrap/combo/archive/main.zip''
   * Check the box ''Overwrite existing files''
   * And click the ''install'' button.
+    * Don't worry. if you get any problem, the next section explains how to revert it back.
 
 {{:support:extension-manager-dokuwiki-manual-install.png|}}
 
@@ -82,11 +83,9 @@ If this is the case and that you got your installation not working anymore, the 
   * to rename on your server the directory ''dokuwiki/lib/plugins/combo'' to ''dokuwiki/lib/plugins/combo.old''
   * or to delete it
 
-And to [[:support|send us the log of your webserver]] if you want us to take a look.
+And to [[https://github.com/ComboStrap/combo/issues|send us the log of your webserver]] if you want us to take a look.
 
 ===== Next Step =====
-
-All good? Well done, otherwise check the [[#do_you_have_a_broken_installation|broken installation section]] if you need to recover your installation.
 
 
 In the next step, you will learn to install a ''favicon''

@@ -11,8 +11,7 @@
 
 
 ===== About =====
-This series of article is intended to help you get a DokuWiki instance installed on a
-server with a Linux/Windows operating system.
+This page is intended to help you get a DokuWiki instance installed with a Linux/Windows operating system.
 
 
 ===== Support =====
@@ -27,7 +26,7 @@ It's not 1, 2, 3 as you need to have a broad knowledge of:
   * and many components
 
 If you struggle, you can:
-  * try our [[:docs:admin:docker|Docker Image]] that install a whole environment in one line of code
+  * try our [[2_docker|Docker Image]] that install a whole environment in one line of code
   * [[:support|contact us]]
 
 For more information, you can also visit the [[doku>install|DokuWiki Install page]]

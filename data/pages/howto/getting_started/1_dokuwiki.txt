@@ -15,18 +15,24 @@
 ===== About =====
 We offer several ways to get ComboWiki up and running.
 
-We are sorry but you need to choose the best way that fits your need.
-
-
-We recommend [[2_docker|the Docker installation]] as:
-  * it's the easiest way to get DokuWiki up and running
-  * it contains all performance cache system (php-fpm and opcache)
-  * a Server DokuWiki installation is not easy and straightforward
-  * and [[:docs:admin:docker#features|more]] such as storing your site on Git.
+We are sorry, but you need to choose the best way that fits your need.
 
 
 ===== Next Step: Choose your installation method  =====
 
+\\
+
+<note width=500 align="center">
+Note: We recommend [[2_docker|the Docker installation]] as:
+  * it's the easiest way to get DokuWiki up and running
+  * it contains all performance cache system (php-fpm and opcache)
+  * a Server DokuWiki installation is not easy and straightforward
+  * and [[:docs:admin:docker#features|more]] such as storing your site on Git.
+</note>
+
+\\
+<text h2 align="text-center">What best fits you?</text>
+\\
 <grid>
     <box>
 

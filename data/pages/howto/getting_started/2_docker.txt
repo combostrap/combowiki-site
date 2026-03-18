@@ -17,16 +17,26 @@ This step will get you an installation with our [[:docs:admin:docker|Docker imag
 ===== Steps =====
 
 
-==== Install Docker ====
+==== Docker ====
 
+You need to have Docker installed on your laptop or server.
 
-Download the Docker binary or install a package as explained on this [[https://docs.docker.com/engine/install/|article]].
+You can check it by asking the version in your terminal
+<code bash>
+docker --version
+</code>
+
+If you don't have installed, go to the [[https://docs.docker.com/engine/install/|Docker installation page and choose your best installation option]].
 
 
 ==== On Windows? ====
 
-On Windows, you need to install WSL by following this [[https://learn.microsoft.com/en-us/windows/wsl/install|instructions]].
-Why? Because Php is still a Linux and C technology that is really slow on Windows. This is architectural as explained on [[https://github.com/docker/for-win/issues/6742|this issue]]
+On Windows, we recommend to install Linux with WSL by following these [[https://learn.microsoft.com/en-us/windows/wsl/install|instructions]].
+
+Why?
+
+Because Php is still a Linux and C technology that is really slow on Windows.
+This is architectural as explained on [[https://github.com/docker/for-win/issues/6742|this issue]]
 
 ==== Create a data directory  ====
   * Create a directory to store the DokuWiki Data
