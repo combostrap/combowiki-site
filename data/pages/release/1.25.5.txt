@@ -6,15 +6,25 @@
 ---
 ====== Release 1.25.5 ======
 
-
 This is the next version not yet released of ComboWiki.
 
 ===== List =====
+
+==== Breaking ====
+
+  * PHP version 7 is no more supported. Minimal version is 8.2 as stated in the [[https://github.com/dokuwiki/dokuwiki/blob/f2fafcf9881b19608f1dd8dc63885b19e5943c53/composer.json#L14|Dokuwiki composer file]]
+
 ==== New ====
 
   * Added [[:docs:theme:bootstrap|bootstrap]] version ''5.3.8'' [[https://github.com/combostrap/combo/commit/79b240eb60b7d14065fccdbd404df02fb6a80167|Commit]]
 
+==== Mort Release Support ====
 
+This version support the [[https://www.dokuwiki.org/changes#release_2026-07-14_mort|Dokuwiki version 2026-07-14 mort]]
+
+  * [[:docs:page:move|Move plugin]]: Warning: The `Move plugin` should be updated before an upgrade to mort as stated on their [[https://www.dokuwiki.org/plugin:move|page]]
+  * Callstack: Support for the [[https://forum.dokuwiki.org/d/26077-changes-to-the-dokuwiki-syntax-in-the-upcoming-release-mort/9|new Markdown processing]] with registry modes [[https://github.com/combostrap/combo/commit/a705c9762b4445776a8432243691d26f9c1127a4|Commit]]
+  * [[https://github.com/combostrap/combo/commit/cb122c041647193e6b60868ad7e9e9571df4a07f|Multiple updates to support the mort Dokuwiki version]] and cosmetic php8.2
 ==== Fix ====
 
   * With bootstrap version ''5.3.8'' ([[https://github.com/combostrap/combo/commit/79b240eb60b7d14065fccdbd404df02fb6a80167|Commit]]),

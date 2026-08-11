@@ -36,7 +36,7 @@ repos:
         name: check commit message
         stages: [ commit-msg ]
         additional_dependencies: [ '@commitlint/config-conventional' ]
-        args: [ "--verbose", "--config", ".config/commitlint.config.js" ]
+        args: [ "--verbose", "--config", ".config/commitlint.config.mjs" ]
   - repo: https://github.com/combostrap/devfiles
     rev: "v0.1.7"
     hooks:

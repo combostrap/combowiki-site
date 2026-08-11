@@ -43,3 +43,8 @@ This file should be deleted, otherwise you may get strange behavior. For instanc
 
 To prevent any more damage, we don't allow any move if the lock file was created more than 5 minutes ago and we send you a notification.
 
+==== Not working ====
+
+Be careful, the move plugin is also affected by the upgrade of DokuWiki. Be sure to be on the latest compatible version.
+
+We support only the latest.

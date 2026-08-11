@@ -21,7 +21,7 @@ tasks:
           -e DOKU_DOCKER_ADMIN_NAME='admin' \
           -e DOKU_DOCKER_ADMIN_PASSWORD='welcome' \
           -v $PWD:/var/www/html \
-          ghcr.io/combostrap/dokuwiki:php8.3-2025-05-14b
+          ghcr.io/combostrap/dokuwiki:php8.3-2026-07-14a
   # Stop the container
   stop:
     cmds:
