@@ -29,8 +29,11 @@
 data/*
 !data/pages/
 !data/pages/**
+data/pages/wiki/
+data/pages/playground/
 !data/media/
 !data/media/**
+data/media/wiki/
 !data/combo/
 !data/combo/**
 ## Interwiki

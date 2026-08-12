@@ -8,6 +8,7 @@ written as [combo site](https://combowiki.combostrap.com/admin/combostrap-websit
 ## How to Run
 
 To get the `ComboWiki` website available at http://localhost:8082, execute:
+
 ```bash
 docker run \
   --name combowiki-site \
@@ -16,7 +17,3 @@ docker run \
   -e DOKU_DOCKER_GIT_SITE=https://github.com/combostrap/combowiki-site \
   ghcr.io/combostrap/dokuwiki:php8.3-latest
 ```
-
-## How to develop it
-
-See [dev](docs/dev.md)

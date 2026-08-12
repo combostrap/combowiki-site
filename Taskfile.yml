@@ -21,7 +21,7 @@ tasks:
           -e DOKU_DOCKER_ADMIN_NAME='admin' \
           -e DOKU_DOCKER_ADMIN_PASSWORD='welcome' \
           -v $PWD:/var/www/html \
-          ghcr.io/combostrap/dokuwiki:php8.3-2026-07-14a
+          ghcr.io/combostrap/dokuwiki:php8.3-2026-07-14b
   # Stop the container
   stop:
     cmds:
@@ -41,7 +41,9 @@ tasks:
   index:
     cmds:
       - |
-        docker exec -it combowiki-site php ./bin/indexer.php --clear
+        rm -rf ./data/cache ./data/meta ./data/index ./data/locks
+        # docker exec -it combowiki-site php ./bin/indexer.php --clear
+        docker exec -it combowiki-site comboctl index
   # Broken links
   broken:
     cmds:
