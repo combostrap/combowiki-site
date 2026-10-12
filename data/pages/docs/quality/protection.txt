@@ -31,3 +31,26 @@ The table below lists the available listing and where the page will appear by pr
 | feed | | |  <icon name="check"/>  |  <icon name="check"/>  | 
 | hidden | | | |  <icon name="check"/>  | 
 | ACL | | | | |
+
+
+===== Why no index in robots meta? =====
+
+You can see why we have set a non-index:
+
+  * by sending a `X-debug` header in the request
+  * we respond with a `X-Debug-Robots-Noindex-Reason` header
+
+For example with `curl`:
+
+<code bash>
+curl -sI https://your-wiki.com -H "X-Debug: 1" | grep -i "x-debug"
+</code>
+
+<console>
+X-Debug-Robots-Noindex-Reason: Low quality page
+</console>
+
+Note that:
+
+  * the [[https://www.dokuwiki.org/config:cachetime|cache]] should be off (set to 0)
+  * and that dokuwiki debug should be [[https://www.dokuwiki.org/devel:debugging|enabled]]
