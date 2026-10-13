@@ -300,6 +300,42 @@ And ''comboWiki'' was born.
 \\
 \\
 </bar>
+<bar hero="lg">
+
+<box align="text-center">
+   <heading h2>Used in the Wild</heading>
+   <text lead width="400px" align="center">Featured Websites using Combo</text>
+</box>
+
+\\
+
+<grid align="text-center">
+       <box width="50%">
+          <card clickable border-color="white" width="400" align="center">
+          {{::www.datacadamia.com.png?400|}}
+=== Datacadamia ===
+An educational website \\
+with more than 1000 articles \\
+[[https://www.datacadamia.com/|{{:combostrap:icons:bootstrap:arrow-right.svg?16&type=icon&color=primary|}}]]
+          </card>
+       </box>
+
+       <box width="50%">
+          <card clickable border-color="white" width="400" align="center">
+{{::www.tabulify.com.png?400|}}
+=== Tabulify ===
+A data processing platform  \\ [[https://www.tabulify.com/|{{:combostrap:icons:bootstrap:arrow-right.svg?16&type=icon&color=primary|}}]]
+          </card>
+       </box>
+      </grid>
+<!-- https://rsyn.org/ ??? {{::rsyn.org.png?400|}} -->
+\\
+\\
+<text align="text-center">//This is a new section, if you want to be featured, [[support|contact us]].//</text>
+
+\\
+</bar>
+
 <bar hero="lg" height="60vh">
    <background opacity="0.7">{{:woman-yoga-sunset.jpg|}}</background>
    <box width="350px" align="text-center" color="secondary">
@@ -308,3 +344,4 @@ And ''comboWiki'' was born.
        [[howto:getting_started:getting_started?preview=false|<icon name="bs:play-circle-fill" width="3.75rem" color="secondary"/>]]
    </box>
 </bar>
+
