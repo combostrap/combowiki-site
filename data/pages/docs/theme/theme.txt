@@ -49,21 +49,17 @@ Via the [[:docs:theme:slot:slot|slot system]], you can change the content of [[d
 ==== By creating your own theme ====
 
 For more advanced usage, you can:
-  * create your own theme,
+  * [[howto:theme-creation|create your own theme]],
   * add or customize templates and [[docs:theme:component-stylesheet|components stylesheet]]
 
-[[howto:theme-creation]]
-
-
-
-
+For theme creation, there is a whole [[howto:theme-creation|tutorial]]
 
 
 ===== Configuration =====
 
 ==== How can you choose your theme? ====
 
-You can choose your theme by modifying the ''theme'' value in the [[:docs:app:configuration|app configuration]].
+You can choose your theme by modifying the ''combo-conf-005'' value in the [[:docs:app:configuration|app configuration]].
 
 
 ==== Disable ====
